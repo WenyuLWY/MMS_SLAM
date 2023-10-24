@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
 
-    <node name="bag1" pkg="rosbag" type="play" args="--clock -r 0.5 $(env HOME)/Downloads/dynamic_warehouse.bag" />
+    <node name="bag1" pkg="rosbag" type="play" args="--clock -r 0.5 $(env HOME)/downloads/dynamic_warehouse.bag" />
 
     <param name="/use_sim_time" value="true" /> 
 

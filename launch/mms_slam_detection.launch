@@ -9,7 +9,7 @@
         <param name="~root_path" value="$(find mms_slam)/" /> 
     </node> 
 
-    <node name="bag" pkg="rosbag" type="play" args="-l $(env HOME)/Downloads/dynamic_warehouse.bag" />
+    <node name="bag" pkg="rosbag" type="play" args="-l $(env HOME)/downloads/dynamic_warehouse.bag" />
 <!-- rosbag  
     <include file="$(find realsense2_camera)/launch/rs_camera.launch">
         <arg name="color_width" value="1280" />
